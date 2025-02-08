@@ -1,0 +1,86 @@
+.container {
+    background-color: #334768;
+    width: 1000px;
+    height: 300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input {
+    font-size: 36px;
+    border: 2px solid white;
+    width: 250px;
+    height: 100px;
+    color: white;
+    border: 2px solid white;
+    background-color: #334768;
+}
+input:hover{
+    animation: animation 2s;
+    animation-name: animation;
+    animation-duration: 2s;
+}
+@keyframes animation{
+    from{
+        color: white;
+        border: 2px solid white;
+        background-color: #334768;
+    }
+    to{
+        color: black;
+        background-color: white;
+    }
+}
+/* ყველა ბრაუზერისთვის, რომელსაც არ აქვს მხარდაჭერა */
+/* მოზილა */
+@-moz-keyframes animation{
+    from{
+        color: white;
+        border: 2px solid white;
+        background-color: #334768;
+    }
+    to{
+        color: black;
+        background-color: white;
+    }
+}
+/* გუგლი ქრომი  და საფარი */
+@-webkit-keyframes animation{
+    from{
+        color: white;
+        border: 2px solid white;
+        background-color: #334768;
+    }
+    to{
+        color: black;
+        background-color: white;
+    }
+}
+/* ms edge */
+@-ms-keyframes animation{
+    from{
+        color: white;
+        border: 2px solid white;
+        background-color: #334768;
+    }
+    to{
+        color: black;
+        background-color: white;
+    }
+}
+@-o-keyframes animation{
+    from{
+        color: white;
+        border: 2px solid white;
+        background-color: #334768;
+    }
+    to{
+        color: black;
+        background-color: white;
+    }
+}
+
+
+
+
